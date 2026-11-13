@@ -11,7 +11,7 @@ class TestCalculator(unittest.TestCase):
   def test_subtract(self):
     self.assertEqual(subtract(10,10),10)
   def test_multiply(self):
-    self.assertEqual(multiply(6,5),30)
+    self.assertEqual(multiply(9,5),30)
 if __name__ == "__main__":
   print("student calculator application")
   print("Addition:",add(20,20))
